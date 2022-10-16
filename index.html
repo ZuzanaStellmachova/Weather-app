@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div id="headline-wrapper">
+                <h1>WEATHER TODAY</h1>
+                <!-- <button class="button-temperature" id="button-celsius">°C</button>
+                <button class="button-temperature" id="button-fahrenheit">°F</button> -->
+                <button class = "btn-city" id="btn-location">Current location</button>    
+            </div>
+        <!-- <div id="heading-line"></div> -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col">
+                  <button class="btn-city">Paris</button>
+                </div>
+                <div class="col">
+                  <button class="btn-city">New York</button> 
+                </div>
+                <div class="col">
+                  <button class="btn-city">London</button>
+                </div>
+                <div class="col">
+                  <button class="btn-city">Tokio</button>
+                </div>
+                <div class="col">
+                  <button class="btn-city">Sydney</button>
+                </div>
+            </div>
+        </div> -->
+        <form>
+            <input type="text" name="city-input" class="city-input" placeholder="Enter city" id="city-input">
+            <button class="btn btn-primary" id=search-button type="submit">Search</button>
+        </form>
+        <div class="current-data-wrapper">
+            <div class="current-temperature">21°</div>
+        <div class=current-data-wrappper-wo-temperature>
+            <div class="current-city">Barcelona</div>
+        <div class="day-time">
+            <span class="current-weekday">Saturday,</span>
+            <span class="time">15:08</span>
+        </div>
+        <div class="weather-description">Storm 🌪</div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row row-days">
+                <div class="col">
+                  Sun
+                </div>
+                <div class="col">
+                  Mon
+                </div>
+                <div class="col">
+                  Tue
+                </div>
+                <div class="col">
+                  Wed
+                </div>
+                <div class="col">
+                  Thu
+                </div>
+                <div class="col">
+                  Fri
+                </div>
+                <div class="col">
+                 Sat
+                </div>
+            </div>
+            <div class="row row-temperature">
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+                <div class="col">
+                    19°
+                </div>
+            </div>
+            <div class="row row-weather-emoji">
+                <div class="col">
+                    ☁️
+                </div>
+                <div class="col">
+                    ⛅️
+                </div>
+                <div class="col">
+                    🌦
+                </div>
+                <div class="col">
+                    ☀️
+                </div>
+                <div class="col">
+                  🌈
+                </div>
+                <div class="col">
+                    ⛈
+                </div>
+                <div class="col">
+                    ☀️
+                </div>
+            </div>
+            <div class="linkRepository"><a class="linkRespository" href="https://github.com/ZuzanaStellmachova/SheCodes-Week-6/commit/5f36a0444000157df7be4b70feec1451104e1917">GitHub repository</a></div>
+        <script src="app.js"></script>
+    </body>
+</html>
